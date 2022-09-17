@@ -3,15 +3,24 @@
 
 Реализовано на Python + NumPy, без использования фреймворков для глубоких нейронных сетей:
 
-• Полносвязный слой с различными вариантами инициализации;
+• Полносвязный слой с различными вариантами инициализации,
 
-• функции активации (ReLU, sigmoid, tanh, linear, ...);
+• функции активации (ReLU, sigmoid, tanh, linear, ...),
 
-• функция softmax;
+• функция Softmax,
 
-• класс оптимайзер;
+• класс Optimizer,
 
-• целевую функцию CrossEntropy;
+• целевая функция CrossEntropy,
+
+• класс Dataset,
+
+• класс DataLoader,
+
+• функция batch_generator с учетом различных методов сэмплирования,
+
+• классы аугментации данных (pad, crop, scale, translate, rotate, noise, salt, pepper, hue, brightness, saturation, contrast,
+blur);
 
 • класс «контейнер» модели;
 
