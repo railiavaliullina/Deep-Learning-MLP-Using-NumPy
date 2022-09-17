@@ -1,4 +1,4 @@
-# Deep-Learning
+# Deep-Learning-Using-NumPy
 
 
 Реализовано на Python + NumPy, без использования фреймворков для глубоких нейронных сетей:
