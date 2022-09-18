@@ -34,3 +34,10 @@ blur),
 • overfitting on one batch,
 
 • all calculations for a batch, aggregation by average.
+
+
+## Getting Started
+
+File to run:
+
+    /homeworks/Homework_2_validating_model_params.py
