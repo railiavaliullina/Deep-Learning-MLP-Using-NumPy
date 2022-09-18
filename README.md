@@ -1,34 +1,36 @@
 # Deep-Learning-MLP-Using-NumPy
 
-Multi-Layer Perceptron:
-1) Реализован на Python + NumPy, без использования фреймворков для глубоких нейронных сетей, 
-2) Обучен на датасетах mnist, cifar-10.
+## About The Project
 
-# Реализовано
+1) Multi-Layer Perceptron was implemented in Python + NumPy, without the use of frameworks for deep neural networks,
+2) was trained on mnist, cifar-10 datasets.
 
-• Полносвязный слой с различными вариантами инициализации,
 
-• функции активации (ReLU, sigmoid, tanh, linear, ...),
+## Implemented modules
 
-• функция Softmax,
+• Fully connected layer with various initialization options,
 
-• класс Optimizer,
+• activation functions (ReLU, sigmoid, tanh, linear, ...),
 
-• целевая функция CrossEntropy,
+• Softmax function,
 
-• класс Dataset,
+• Optimizer class,
 
-• класс DataLoader,
+• objective function CrossEntropy,
 
-• функция batch_generator с учетом различных методов сэмплирования,
+• Dataset class,
 
-• классы аугментации данных (pad, crop, scale, translate, rotate, noise, salt, pepper, hue, brightness, saturation, contrast,
+• class DataLoader,
+
+• batch_generator function, taking into account various sampling methods,
+
+• data augmentation classes (pad, crop, scale, translate, rotate, noise, salt, pepper, hue, brightness, saturation, contrast,
 blur),
 
-• unit тесты,
+• unit tests,
 
-• класс «контейнер» модели,
+• class "container" of the model,
 
-• оверфиттинг на одном батче,
+• overfitting on one batch,
 
-• все вычисления для батча, агрегация средним.
+• all calculations for a batch, aggregation by average.
